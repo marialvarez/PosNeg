@@ -6,7 +6,7 @@ function calcular()
     var salida = document.getElementById("salida");
     var salida2 = document.getElementById("salida2");
     
-	if (a == "" || b == ""){
+	if (a == "" && b == "" && neg ==""){
         salida2.innerHTML = "Falta llenar datos";
     } else {
         if (neg == "1") {
